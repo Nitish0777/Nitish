@@ -1,7 +1,7 @@
 {
   "type": "module",
   "name": "nitish0777",
-  "version": "3.0.0",
+  "version": "4.0.0",
   "description": "Hii, I am Nitish Nashine",
   "main": "card.js",
   "bin": "./card.js",

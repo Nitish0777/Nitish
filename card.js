@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+"use strict";
 import { fileURLToPath } from "url";
 import { dirname } from "path";
 
