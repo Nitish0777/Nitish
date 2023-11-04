@@ -13,11 +13,14 @@ import clear from "clear";
 import open from "open";
 import fs from "fs";
 import path from "path";
+import ora from "ora";
+import cliSpinners from "cli-spinners";
+import request from "request";
 
 clear();
 
 //! Importing User Data from data.json
-const dataFile = path.resolve(__dirname, "info.json");
+const dataFile = path.resolve(__dirname, "data.json");
 const res = fs.readFileSync(dataFile);
 
 const user_data = JSON.parse(res);
