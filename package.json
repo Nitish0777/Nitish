@@ -1,0 +1,38 @@
+{
+  "type": "module",
+  "name": "nitish",
+  "version": "1.0.0",
+  "description": "Hii, I am Nitish Nashine",
+  "main": "index.js",
+  "bin": "./index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nitish0777/Nitish.git"
+  },
+  "keywords": [
+    "Nitish",
+    "card",
+    "npm",
+    "npm card",
+    "npx",
+    "npx card",
+    "business card"
+  ],
+  "author": "Nitish Nashine",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nitish0777/Nitish/issues"
+  },
+  "homepage": "https://github.com/Nitish0777/Nitish#readme",
+  "dependencies": {
+    "boxen": "^7.1.1",
+    "chalk": "^5.3.0",
+    "clear": "^0.1.0",
+    "inquirer": "^9.2.11",
+    "open": "^9.1.0"
+  }
+}
